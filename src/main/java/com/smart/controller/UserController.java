@@ -152,7 +152,7 @@ public String processContact(@ModelAttribute Contact contact,@RequestParam("prof
 		
 		if(contact.getUser().getId()==user.getId())
 		model.addAttribute("contact", contact);
-		return "normal/contact_detail";
+		return "normal/contat_detail";
 	}
 	
 	@GetMapping("/delete/{cid}")
