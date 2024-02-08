@@ -10,4 +10,5 @@ public class SmartContactManagerApplication {
 		SpringApplication.run(SmartContactManagerApplication.class, args);
 	}
 
+	//smart contact manager
 }
